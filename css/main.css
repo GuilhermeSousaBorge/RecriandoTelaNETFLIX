@@ -109,6 +109,9 @@ header nav a:hover{
     margin-right: 7px;
 }
 
+.btn{
+    cursor: pointer;
+}
 .botao:hover{
     color: black;
     background-color: white;
