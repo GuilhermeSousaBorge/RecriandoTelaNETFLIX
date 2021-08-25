@@ -109,8 +109,13 @@ header nav a:hover{
     margin-right: 7px;
 }
 
+.idioma{
+    width: 90px;
+}
 .btn{
     cursor: pointer;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 .botao:hover{
     color: black;
@@ -131,7 +136,7 @@ header nav a:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 25px;
     background-color: black;
     border-top: 5px solid rgba(211, 211, 211, 0.233);
@@ -139,10 +144,37 @@ header nav a:hover{
 }
 
 .container2 .text{
-    width: 60%;
-    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.container2 p{
+    width: 40%;
 }
 
 .container2 .image{
     margin-right: 15%;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+    background-color: black;
+    border-top: 5px solid rgba(211, 211, 211, 0.233);
+    border-bottom: 5px solid rgba(211, 211, 211, 0.233);
+}
+
+.container3 .text{
+    width: 60%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container3 .image{
+    
+    margin-left: 15%;
 }
